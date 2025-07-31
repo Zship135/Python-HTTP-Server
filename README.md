@@ -30,8 +30,8 @@ pip install python-dotenv
 
 3. Create a `.env` file in the project root:
 ```env
-HOST_IP=127.0.0.1
-PORT=8080
+HOST_IP=<host_ip>
+PORT=<port>
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ python main.py
 
 The server will start listening on the configured host and port. You can then access it via:
 ```
-http://localhost:8080
+http://<host_ip>:<port>
 ```
 
 ## Project Structure
