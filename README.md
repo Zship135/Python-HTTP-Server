@@ -81,11 +81,9 @@ The main server class handles:
 - `parse_request_line()`: Parses incoming HTTP requests
 - `handle_request()`: Routes requests to appropriate handlers
 - `GET()`: Handles HTTP GET requests
-- `resolve_path()`: Securely resolves file paths within the base directory
 
 ## Security Features
 
-- **Path Traversal Protection**: The `resolve_path()` method prevents directory traversal attacks
 - **Input Sanitization**: Request data is properly decoded with error handling
 
 ## Example Response
@@ -115,8 +113,3 @@ To extend the server functionality:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Built as a learning exercise in network programming
-- Inspired by HTTP server implementations and socket programming tutorials
