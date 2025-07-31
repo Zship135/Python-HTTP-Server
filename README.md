@@ -53,7 +53,6 @@ http://<host_ip>:<port>
 ├── main.py          # Entry point and server initialization
 ├── server.py        # TCPServer class implementation
 ├── .env            # Environment configuration (create this)
-├── shared/         # Default directory for served files
 └── README.md       # This file
 ```
 
